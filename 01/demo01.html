@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信读书-正版书籍小说免费阅读</title>
+
+    <style>
+
+        /* 重置样式 */
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* 头部 */
+
+        .header {
+            background-color: #f6f7f9;
+            padding: 0 16px;
+        }
+
+         /* 导航 */
+
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .navbar__item {
+            line-height: 72px;
+            font-size: 16px;
+            padding: 0 18px;
+            position: relative;
+        }
+
+        .navbar__item:not(:last-child):after {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 16px;
+            top: 50%;
+            transform: translate(18px, -50%);
+            background-color: #0d141e;
+            opacity: .3;
+        }
+
+        .navbar__link {
+            text-decoration: none;
+            color: #0d141e;
+            opacity: .7;
+        }
+
+        .navbar__link:hover {
+            opacity: 1;
+        }
+
+        .navbar__avatar {
+            line-height: 1;
+        }
+
+        .navbar__avatar img {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="navbar">
+            <a class="navbar__item navbar__link" href="javascript:;">传书到手机</a>
+            <a class="navbar__item navbar__link" href="javascript:;">墨水屏版</a>
+            <a class="navbar__item navbar__link" href="javascript:;">手机版</a>
+            <a class="navbar__item navbar__link" href="javascript:;">微信听书</a>
+            <div class="navbar__item navbar__avatar">
+                <img src="./images/avatar.jpg" alt="avatar">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
